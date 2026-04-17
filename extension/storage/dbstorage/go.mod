@@ -1,13 +1,13 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage
 
-go 1.23.0
+go 1.25.0
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/docker/docker v28.1.1+incompatible
 	github.com/docker/go-connections v0.5.0
-	github.com/jackc/pgx/v5 v5.7.5
-	github.com/stretchr/testify v1.10.0
+	github.com/jackc/pgx/v5 v5.9.0
+	github.com/stretchr/testify v1.11.1
 	github.com/testcontainers/testcontainers-go v0.37.0
 	go.opentelemetry.io/collector/component v1.35.1-0.20250703115036-26a1aed9c04b
 	go.opentelemetry.io/collector/component/componenttest v0.129.1-0.20250703115036-26a1aed9c04b
@@ -94,9 +94,9 @@ require (
 	golang.org/x/crypto v0.37.0 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
 	golang.org/x/net v0.39.0 // indirect
-	golang.org/x/sync v0.14.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.24.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250324211829-b45e905df463 // indirect
 	google.golang.org/grpc v1.73.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
